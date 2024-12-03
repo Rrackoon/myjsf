@@ -6,3 +6,4 @@ function updateTime() {
 
 updateTime();
 setInterval(updateTime, 11000);
+
