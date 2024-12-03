@@ -5,4 +5,4 @@ function updateTime() {
 }
 
 updateTime();
-setInterval(updateTime, 11000); // Обновление каждые 11 секунд
+setInterval(updateTime, 11000);

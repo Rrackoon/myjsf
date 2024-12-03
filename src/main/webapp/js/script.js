@@ -234,8 +234,4 @@ function handleComplete(xhr, status, args) {
         });
         ctx.restore();
     }
-
-
-
-
 })(window, document);

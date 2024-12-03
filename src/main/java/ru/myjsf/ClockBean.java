@@ -12,4 +12,5 @@ public class ClockBean implements Serializable {
     public String getCurrentTime() {
         return LocalDateTime.now().format(DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss"));
     }
+
 }

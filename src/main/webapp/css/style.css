@@ -53,10 +53,12 @@ table th, table td {
     border: 1px solid #ddd;
     padding: 8px;
 }
+
 .p-panelgrid {
     width: 100%;
     margin-bottom: 20px;
 }
+
 form {
     width: 500px;
     margin: 0 auto;
@@ -77,6 +79,7 @@ label {
     margin-bottom: 5px;
     display: block;
 }
+
 table th {
     background-color: #ffb6c1;
     color: white;
@@ -101,6 +104,7 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
 .ui-button {
     background-color: #ff94c2 !important;
     color: white !important;
@@ -129,6 +133,7 @@ a:hover {
 .ui-outputlabel-required::after {
     content: none !important;
 }
+
 #submit-btn {
     background-color: #ff94c2 !important;
     color: white !important;
@@ -159,6 +164,7 @@ a:hover {
     padding: 10px;
     text-align: center;
 }
+
 #error-message {
     font-size: 1.1rem;
     text-align: center;
