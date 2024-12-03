@@ -1,0 +1,36 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+<h:head>
+    <link rel="stylesheet" type="text/css" href="snowFlakes/snow.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <title>Стартовая страница</title>
+    <meta charset="UTF-8"/>
+</h:head>
+<h:body>
+    <div class="center-container">
+        <header>
+            <h1>Проверка попадания точки в область</h1>
+            <h2>Эмилия Владимировна</h2>
+
+        </header>
+
+        <div>
+            <p>Группа: P3224</p>
+            <p>Вариант: 394031</p>
+            Текущее время:
+            <h:outputText id="clock" value="#{clockBean.currentTime}" />
+        </div>
+
+        <p:poll update="clock" />
+
+        <h:outputLink value="main.xhtml" styleClass="pink-button">Перейти на основную страницу</h:outputLink>
+    </div>
+
+    <script src="snowFlakes/Snow.js"></script>
+    <script>
+        new Snow();
+    </script>
+
+</h:body>
+</html>

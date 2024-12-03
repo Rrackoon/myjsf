@@ -1,0 +1,14 @@
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence" version="3.0">
+    <persistence-unit name="StudsPU" transaction-type="RESOURCE_LOCAL">
+        <jta-data-source>java:jboss/datasources/ExampleDS</jta-data-source>
+        <!-- class>ru.myjsf.Result</class-->
+        <properties>
+
+            <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/>
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.format_sql" value="true"/>
+            <property name="hibernate.use_sql_comments" value="true"/>
+            <property name="hibernate.hbm2ddl.auto" value="update"/>
+        </properties>
+    </persistence-unit>
+</persistence>
